@@ -18,21 +18,20 @@ cd repo-adi
 Bağımlılıkları yükleyin:
 npm install
 
+Developer modunda çalıştırın:
 npm run dev
-# veya
+veya 
 yarn dev
+
 Tarayıcıda otomatik olarak http://localhost:5173 adresinde açılır.
 
-Kod değişiklikleri anında uygulanır (Hot Module Replacement).
-
-Build ve Deploy
+# Build ve Deploy
 Projeyi üretim için build etmek için:
-
 
 npm run build
 # veya
 yarn build
-Derlenen dosyalar dist klasöründe yer alır.
 
+Derlenen dosyalar dist klasöründe yer alır.
 Netlify veya başka bir static host ile deploy edilebilir.
 
