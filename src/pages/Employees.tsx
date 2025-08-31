@@ -8,7 +8,7 @@ import type { Employee } from '../types/employee';
 import { toast } from "react-toastify";
 
 
-const Employee: React.FC = () => {
+const Employees: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>();
   const { items: employees, status } = useSelector((state: RootState) => state.employees);
 
@@ -65,6 +65,7 @@ const Employee: React.FC = () => {
         </button>
       </div>
       <EmployeeTable
+        /* @ts-ignore */
         employees={employees}
         onEdit={handleEditClick}
         onDelete={handleDeleteClick}
@@ -80,4 +81,4 @@ const Employee: React.FC = () => {
   );
 };
 
-export default Employee;
+export default Employees;

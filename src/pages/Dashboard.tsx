@@ -130,7 +130,7 @@ const Dashboard = () => {
                 cx="50%"
                 cy="50%"
                 outerRadius={100}
-                label={({ percent }) => `${(percent * 100).toFixed(0)}%`}
+                label={({ percent }) => `${((percent ?? 0) * 100).toFixed(0)}%`}
               >
                 {departmentData.map((_, index) => (
                   <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
