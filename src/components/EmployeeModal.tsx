@@ -85,7 +85,7 @@ const EmployeeModal: React.FC<Props> = ({ isOpen, onClose, employee }) => {
         >
             <div
                 ref={modalRef}
-                className="bg-white rounded-lg p-6 w-full max-w-3xl mx-4 my-8 relative transform transition-all shadow-xl dark:bg-gray-800"
+                className="bg-white rounded-lg p-6 w-full max-w-3xl mx-4 my-8 relative transform transition-all shadow-xl"
                 onClick={(e) => e.stopPropagation()}
             >
 
@@ -104,7 +104,7 @@ const EmployeeModal: React.FC<Props> = ({ isOpen, onClose, employee }) => {
                     </svg>
                 </button>
 
-                <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">
+                <h2 className="text-2xl font-semibold mb-4 text-gray-800">
                     {employee ? "Çalışan Düzenle" : "Yeni Çalışan Ekle"}
                 </h2>
 
@@ -112,7 +112,7 @@ const EmployeeModal: React.FC<Props> = ({ isOpen, onClose, employee }) => {
                     <div className="grid grid-cols-2 gap-4">
                         {/* Ad Alanı */}
                         <div className="flex flex-col">
-                            <label className="text-sm font-medium text-gray-700 dark:text-gray-300">Ad</label>
+                            <label className="text-sm font-medium text-gray-700">Ad</label>
                             <Controller
                                 name="firstName"
                                 control={control}
@@ -131,7 +131,7 @@ const EmployeeModal: React.FC<Props> = ({ isOpen, onClose, employee }) => {
 
                         {/* Soyad Alanı */}
                         <div className="flex flex-col">
-                            <label className="text-sm font-medium text-gray-700 dark:text-gray-300">Soyad</label>
+                            <label className="text-sm font-medium text-gray-700">Soyad</label>
                             <Controller
                                 name="lastName"
                                 control={control}
@@ -150,7 +150,7 @@ const EmployeeModal: React.FC<Props> = ({ isOpen, onClose, employee }) => {
 
                         {/* Email Alanı */}
                         <div className="flex flex-col">
-                            <label className="text-sm font-medium text-gray-700 dark:text-gray-300">Email</label>
+                            <label className="text-sm font-medium text-gray-700">Email</label>
                             <Controller
                                 name="email"
                                 control={control}
@@ -170,7 +170,7 @@ const EmployeeModal: React.FC<Props> = ({ isOpen, onClose, employee }) => {
 
                         {/* Telefon Alanı */}
                         <div className="flex flex-col">
-                            <label className="text-sm font-medium text-gray-700 dark:text-gray-300">Telefon</label>
+                            <label className="text-sm font-medium text-gray-700">Telefon</label>
                             <Controller
                                 name="phone"
                                 control={control}
@@ -190,7 +190,7 @@ const EmployeeModal: React.FC<Props> = ({ isOpen, onClose, employee }) => {
 
                         {/* Maaş Alanı */}
                         <div className="flex flex-col">
-                            <label className="text-sm font-medium text-gray-700 dark:text-gray-300">Maaş</label>
+                            <label className="text-sm font-medium text-gray-700">Maaş</label>
                             <Controller
                                 name="salary"
                                 control={control}
@@ -211,7 +211,7 @@ const EmployeeModal: React.FC<Props> = ({ isOpen, onClose, employee }) => {
 
                         {/* Başlangıç Tarihi Alanı */}
                         <div className="flex flex-col">
-                            <label className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                            <label className="text-sm font-medium text-gray-700">
                                 Başlangıç Tarihi
                             </label>
                             <Controller
@@ -232,7 +232,7 @@ const EmployeeModal: React.FC<Props> = ({ isOpen, onClose, employee }) => {
 
                         {/* Departman Alanı */}
                         <div className="flex flex-col">
-                            <label className="text-sm font-medium text-gray-700 dark:text-gray-300">Departman</label>
+                            <label className="text-sm font-medium text-gray-700">Departman</label>
                             <Controller
                                 name="department"
                                 control={control}
@@ -258,7 +258,7 @@ const EmployeeModal: React.FC<Props> = ({ isOpen, onClose, employee }) => {
 
                         {/* Pozisyon Alanı */}
                         <div className="flex flex-col">
-                            <label className="text-sm font-medium text-gray-700 dark:text-gray-300">Pozisyon</label>
+                            <label className="text-sm font-medium text-gray-700">Pozisyon</label>
                             <Controller
                                 name="position"
                                 control={control}
