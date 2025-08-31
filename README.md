@@ -22,13 +22,13 @@ npm install
 
 Developer modunda çalıştırın:
 npm run dev
-veya 
+# veya 
 yarn dev
 
 Tarayıcıda otomatik olarak http://localhost:5173 adresinde açılır.
 
 # Build ve Deploy
-Projeyi üretim için build etmek için:
+Projeyi build etmek için:
 
 npm run build
 # veya
