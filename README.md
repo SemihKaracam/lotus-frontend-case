@@ -12,7 +12,7 @@ Bu proje, Lotus Code case çalışması kapsamında geliştirilmiş bir Vite + R
 1. Repository'yi klonlayın:
 
 
-git clone https://github.com/kullaniciadi/repo-adi.git
+git clone [https://github.com/SemihKaracam/lotus-frontend-case.git]
 cd repo-adi
 
 Bağımlılıkları yükleyin:
