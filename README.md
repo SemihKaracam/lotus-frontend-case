@@ -9,8 +9,8 @@ Bu proje, Lotus Code case çalışması kapsamında geliştirilmiş bir Vite + R
 - npm veya yarn
 
 ## Kurulum
-1. Repository'yi klonlayın:
 
+1. Repository'yi klonlayın:
 
 git clone [https://github.com/SemihKaracam/lotus-frontend-case.git]
 cd repo-adi
