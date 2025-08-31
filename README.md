@@ -13,6 +13,8 @@ Bu proje, Lotus Code case çalışması kapsamında geliştirilmiş bir Vite + R
 1. Repository'yi klonlayın:
 
 git clone [https://github.com/SemihKaracam/lotus-frontend-case.git]
+
+Repo'nun local'deki path'ine girin:
 cd repo-adi
 
 Bağımlılıkları yükleyin:
