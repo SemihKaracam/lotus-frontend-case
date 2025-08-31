@@ -141,6 +141,7 @@ const Dashboard = () => {
                 layout="vertical"
                 align="right"
                 verticalAlign="middle"
+                // @ts-ignore
                 formatter={(value, entry, index) => (
                   <span style={{ color: "black", fontWeight: 600 }}>
                     {value}
