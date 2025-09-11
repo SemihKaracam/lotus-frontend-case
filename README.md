@@ -1,5 +1,4 @@
-# Lotus Frontend Case
-Bu proje, Lotus Code case çalışması kapsamında geliştirilmiş bir Vite + React + Tailwind uygulamasıdır.
+# Employee Management System
 
 🔗 **Canlı Demo:** [https://lotus-frontend-case.netlify.app/]
 
