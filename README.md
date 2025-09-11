@@ -1,6 +1,6 @@
 # Employee Management System
 
-🔗 **Canlı Demo:** [https://lotus-frontend-case.netlify.app/]
+🔗 **Canlı Demo:** [https://v1-employee-management-system.netlify.app/]
 
 
 ## Ön Koşullar
@@ -11,7 +11,7 @@
 
 1. Repository'yi klonlayın:
 
-git clone [https://github.com/SemihKaracam/lotus-frontend-case.git]
+git clone [https://github.com/SemihKaracam/employee-management-system.git]
 
 Repo'nun local'deki path'ine girin:
 cd repo-adi
